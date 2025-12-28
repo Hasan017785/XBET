@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+.top {
+  background: #0a1a2f;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.matches {
+  margin: 15px;
+}
+
+.match {
+  background: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+button {
+  width: 45%;
+  padding: 12px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #0a1a2f;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
