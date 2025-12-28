@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XBET</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top">
+  XBET
+  <span>Balance: <b id="balance">1000</b></span>
+</div>
+
+<div class="matches">
+  <div class="match">
+    <p>Barcelona vs Real Madrid</p>
+    <button onclick="bet(1.8)">1 (1.80)</button>
+    <button onclick="bet(2.1)">2 (2.10)</button>
+  </div>
+  <div class="match">
+    <p>Manchester United vs Liverpool</p>
+    <button onclick="bet(1.9)">1 (1.90)</button>
+    <button onclick="bet(2.0)">2 (2.00)</button>
+  </div>
+</div>
+
+<div class="result" id="result"></div>
+
+<div class="bottom">
+  Home | Bets | Wallet
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
